@@ -1,4 +1,4 @@
--- 1) county in WA with the most BEV Sales
+-- 1) county in WA with the most BEV Sales.
 SELECT  county, count(*) AS num_bev_sale
 FROM `electric-vehicle-356712.ev_data.us_ev`
 WHERE Electric_Vehicle_Type = "Battery Electric Vehicle (BEV)"
